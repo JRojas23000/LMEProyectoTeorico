@@ -1,18 +1,13 @@
-window.onload = iniciar;
 
-function iniciar() {
-    var btncalcular = document.getElementById("btncalcular");
-    btncalcular.addEventListener("click", clickbtncalcular);
-}
+function calcular() {
 
-function clickbtncalcular() {
-    var txtpeso = document.getElementById("txtpeso");
-    var peso = txtpeso.value;
+    var peso = document.getElementById("txtpeso").value;
 
-    var txtaltura = document.getElementById("txtaltura");
-    var txtaltura = txtaltura.value;
+    var altura = document.getElementById("txtaltura").value;
+    
+    altura = Math.round(altura) / 100;
+    peso = Math.round(peso);
+    var imc = (peso / Math.pow(altura, 2));
 
-    var imc = peso / (altura * altura);
-    document.getElementById('imcValue').textContent = imc.toFixed(2);
-    document.getElementById('result').textContent = `Tu IMC es: ${imc.toFixed(2)} (${result})`;
+    document.getElementById("result").innerHTML=imc.toFixed(2);
 }
