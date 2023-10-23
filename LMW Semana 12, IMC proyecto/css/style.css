@@ -74,6 +74,8 @@ body {
  .letra{
     border-radius: 0.2rem;
     text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
  }
 
 p{
@@ -92,6 +94,8 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 1rem;
     text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 
@@ -143,6 +147,8 @@ p img{
 
 .frases{
     font-family: 'Times New Roman', Times, serif;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 
