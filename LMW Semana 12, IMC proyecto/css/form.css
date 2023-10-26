@@ -1,0 +1,75 @@
+#login{
+    margin-top: 4%;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+#login form{
+    width: 500px;
+    text-align: justify;
+}
+#logindatos{
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: bisque;
+
+}
+
+#btn{
+    background-color: rgba(164, 179, 87, 1);
+    border-radius: 15px;
+    color: #fff;
+    font-family: ' CenturyGothic ';
+    margin-top: 10px;
+    font-size: large;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.control{
+    scrollbar-gutter:45px;
+    font-size: 19px;
+    margin-left: 20px;
+
+
+}
+
+.terminos{
+    display: inline;
+}
+
+#login input{
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    
+}
+
+#login section input {
+    margin-top: 15px;
+    width: 400px;
+}
+
+ 
+p.terminos{
+    font-size: 14px;
+    color: #fff;
+}
+
+form{ 
+    font-family: 'CenturyGothic';
+    background-color: rgba(76, 76, 76, 1);
+    box-shadow: 10px 10px 112px 0px rgba(0, 0, 0, 0.75);
+    
+    
+
+
+}
+
+
+h1{
+    padding-top: 6px;
+    color: #5c57f0;
+    text-align: justify;
+}
+

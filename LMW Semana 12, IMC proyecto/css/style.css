@@ -5,12 +5,15 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background-color: black;
+    
 }
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: sans-serif;  
+    background-color: black;
 }
+
+
 
 .head {
     display: flex;
@@ -21,7 +24,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 100;
-    background-image: url(../img/img1.jpg);
+    
 }
 
 .navbar{
@@ -85,10 +88,15 @@ li a:hover::after {
     align-items: center;
 
 }
-.header{
+.contento{
     height: 60vh !important;
-    background: url(../img/img3.jpg) no-repeat center ;
+    background-image: url(../img/img3.jpg);
     background-size: cover;
+}
+
+.imagen1 img{
+    width: 300px;
+    height: 200px;  
 }
 
 .logo img{
@@ -100,21 +108,21 @@ li a:hover::after {
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #a59f9f;
+    color: #dadf75;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 1rem;
 }
  .letra{
     border-radius: 0.2rem;
     text-align: justify;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 350px;
+    margin-left: 350px;
  }
 
 p{
     margin-top: 40px;
-    font-size: 18px;
-    color: #d8d4d4;
+    font-size: 20px;
+    color: #857d7d;
     padding: 0 100px;
 
 }
@@ -123,12 +131,12 @@ p{
     margin-bottom: 40px ;
     font-size: 25px;
     text-transform: uppercase;
-    color: #c5c0c0;
+    color: #dadf75;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 1rem;
     text-align: justify;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 350px;
+    margin-left: 350px;
 }
 
 
@@ -140,8 +148,15 @@ p{
     align-items: center;
 }
 
+.frases{
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 350px;
+    color: #6de81b;
+}
+
 footer {
-    margin-top: 200px;
+    margin-top: 350px;
 }
 
 .box {
@@ -178,3 +193,19 @@ footer {
 
 
 
+.contenti{
+    height: 50hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fondo{
+    background-color: white;
+}
+
+.area-calcular{
+    color: black;
+}
