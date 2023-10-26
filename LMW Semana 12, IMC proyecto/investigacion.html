@@ -9,18 +9,19 @@
 <body>
     
     <h1>Calculadora IMC</h1>
-       <div>
+       <div id="area-calcular">
 
         <label>Peso (KG): </label>  <input id="txtpeso"><br>  
         <label>Altura (M): </label>   <input id="txtaltura"> <br> 
             <button id="btncalcular" onclick="calcular()">Calcular</button>
-            <p id="result"></p>
+            <p id="result">El valor de su IMC es (a continuación).</p>
             
             <p id="aceon"></p>
        </div>
-            
-       <img src="img/imc.png" alt="Tabla de Valores.">
+        <div id="imagen">
+       <img src="img/imc.png" alt="Tabla de Valores." id="imgimc">
 
     <script src="js/imc.js"></script>
+</div>
 </body>
 </html>

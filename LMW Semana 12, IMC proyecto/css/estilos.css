@@ -22,6 +22,11 @@ input {
     padding: 5px;
     margin-top: 5px;
 }
+h1{
+    text-align: center;
+    color: mediumseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 button {
     margin-top: 10px;
@@ -35,4 +40,24 @@ button {
 #result {
     margin-top: 10px;
     font-weight: bold;
+}
+
+#area-calcular{
+    display: inline-block;
+    margin: auto 0;
+    margin-left: 15%;
+    padding: 5%;
+    border-style: groove;
+    border-color: lightblue;
+}
+
+#imagen{
+    display: inline-block;
+    padding: auto 0;
+    height: 5px;
+}
+
+#imagen:hover{
+    transform: scale(1.5);
+    transition: transform 3s;
 }
